@@ -1,9 +1,9 @@
 {
-  "name": "Google Meet Attendance",
-  "version": "0.0.7",
+  "name": "Google Meet Attendance ML",
+  "version": "0.1.4",
   "manifest_version": 2,
-  "description": "Save the time joined and left of all attendees with one click!",
-  "homepage_url": "https://github.com/jakecrowley/Google-Meet-Attendance",
+  "description": "Google Meet Attendance Tracker with CSV Export",
+  "homepage_url": "https://github.com/Mrgibsonict/Google-Meet-Attendance",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -20,8 +20,7 @@
     "default_popup": "src/browser_action/browser_action.html"
   },
   "permissions": [
-	"tabs",
-    "contextMenus",
+  "tabs",
     "https://meet.google.com/*"
   ]
 }

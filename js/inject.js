@@ -12,10 +12,3 @@ chrome.tabs.onUpdated.addListener(function (tabId, info, tab) {
 	}
   }
 });
-
-chrome.contextMenus.create(contextMenuItem);
-chrome.contextMenus.onClicked.addListener(function(info, tab) {
-    if(info.menuItemId == "saveAttendance"){
-        chrome.tabs.executeScript(tab.id, {file: "js/saveAttendance.js"})
-    }
-});
